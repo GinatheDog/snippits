@@ -36,7 +36,6 @@ try {
 	$querynavLocations = $pdoconn->query("SELECT latlngloc, locname FROM poi_navigate");
 	$result['nav'] = $querynavLocations->fetchAll(PDO::FETCH_ASSOC);
 
-	//echo json_encode($result);
 	echo str_replace('-', '', json_encode($result));
     }
 
