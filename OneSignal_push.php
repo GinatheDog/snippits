@@ -8,19 +8,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
     <style>
-	#code_area{
-		display:none;			
-	}
-	#message{
-		opacity: 0.5;			
-	}
-	body { 
-	  background: url(../assets/photo/background.jpg) no-repeat center center fixed;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	}
+			#code_area{
+				display:none;			
+			}
+			#message{
+				opacity: 0.5;			
+			}
+			body { 
+				background: url(../assets/photo/background.jpg) no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}
     </style>
 </head>
 
