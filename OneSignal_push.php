@@ -107,16 +107,16 @@
 	        }
 	        else
 	        {
-	            $.ajax({
-	                type: "POST",
-	                url: "ajax.php",
-	                data: dataString,
-	                cache: false,
-	                success: function(html) {
-	                    alert(html);
-	                    $('#myForm').submit();
-	                }
-	            });
+						$.ajax({
+								type: "POST",
+								url: "ajax.php",
+								data: dataString,
+								cache: false,
+								success: function(html) {
+										alert(html);
+										$('#myForm').submit();
+								}
+						});
 	        }
 	        //return false;
 	    }       
